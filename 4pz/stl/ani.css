@@ -1,0 +1,129 @@
+.c1 {
+    width: 90px;
+    height: 90px;
+    background-color: #ff0000;
+    border-radius:45px;
+    position: relative;
+    left:0;
+    animation-name:snake;
+    position: absolute;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.c2 {
+    width: 90px;
+    height: 90px;
+    background-color: #ff6600;
+    border-radius:45px;
+    position: relative;
+    left:0;
+    animation-name:snake;
+    position: absolute;
+    animation-duration: 20s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+}
+
+.c3 {
+    width: 90px;
+    height: 90px;
+    background-color: #ffae00;
+    border-radius:45px;
+    position: relative;
+    left:0;
+    animation-name:snake;
+    position: absolute;
+    animation-duration: 20s;
+    animation-delay: 0.6s;
+    animation-iteration-count: infinite;
+}
+
+.c4 {
+    width: 90px;
+    height: 90px;
+    background-color: #d9ff00;
+    border-radius:45px;
+    position: relative;
+    left:0;
+    animation-name:snake;
+    position: absolute;
+    animation-duration: 20s;
+    animation-delay: 0.9s;
+    animation-iteration-count: infinite;    
+}
+
+.c5 {
+    width: 90px;
+    height: 90px;
+    background-color: #00ff2a;
+    border-radius:45px;
+    position: relative;
+    left:0;
+    animation-name:snake;
+    position: absolute;
+    animation-duration: 20s;
+    animation-delay: 1.2s;
+    animation-iteration-count: infinite;    
+}
+
+
+.c6 {
+    width: 90px;
+    height: 90px;
+    background-color: #00eeff;
+    border-radius:45px;
+    position: relative;
+    left:0;
+    animation-name:snake;
+    position: absolute;
+    animation-duration: 20s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;    
+}
+
+.c7 {
+    width: 90px;
+    height: 90px;
+    background-color: #9a04ff;
+    border-radius:45px;
+    position: relative;
+    left:0;
+    animation-name:snake;
+    position: absolute;
+    animation-duration: 20s;
+    animation-delay: 1.8s;
+    animation-iteration-count: infinite;    
+}
+
+@keyframes snake{
+    0%      { left:0px; top:0px;}
+    3.3%    { left:100px; top:0px;}
+    6.7%    { left:200px; top:0px;}
+    9.9%    { left:300px; top:0px;}
+    13.2%   { left:400px; top:0px;}
+    16.5%   { left:500px; top:0px;}
+    19.8%   { left:600px; top:0px;}
+    23.1%   { left:700px; top:0px;}
+    26.4%   { left:700px; top:100px;}
+    29.7%   { left:700px; top:200px;}
+    33%     { left:700px; top:300px;}
+    36.3%   { left:700px; top:400px;}
+    39.6%   { left:700px; top:500px;}
+    42.9%   { left:700px; top:600px;}
+    46.2%   { left:700px; top:700px;}
+    50%     { left:600px; top:700px;}
+    52.8%   { left:500px; top:700px;}
+    56.1%   { left:400px; top:700px;}
+    59.4%   { left:300px; top:700px;}
+    62.7%   { left:200px; top:700px;}
+    66%     { left:100px; top:700px;}
+    69.3%   { left:0px; top:700px;}
+    72.6%   { left:0px; top:600px;}
+    75.9%   { left:0px; top:500px;}
+    82.5%   { left:0px; top:400px;}
+    86.8%   { left:0px; top:300px;}
+    89.1%   { left:0px; top:200px;}
+    94.4%   { left:0px; top:100px;}
+    97%    { left:0px; top:0px;}
+}
